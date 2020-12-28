@@ -33,7 +33,11 @@ class Post
     if (@author)
       @author.name
     else
+<<<<<<< HEAD
       return NIL
+=======
+      NIL
+>>>>>>> 91df447481d6c50739f5ab8c1360c0e2bcc81a0b
     end
     
   end

@@ -18,15 +18,23 @@ class Artist
     
     def songs
       
+<<<<<<< HEAD
       Song.all.select {|song| song.artist == self}
+=======
+      @songs
+>>>>>>> 91df447481d6c50739f5ab8c1360c0e2bcc81a0b
       
     end
     
     def add_song(song)
       
       song.artist = self
+<<<<<<< HEAD
       #@songs << song
 
+=======
+      @songs << song
+>>>>>>> 91df447481d6c50739f5ab8c1360c0e2bcc81a0b
       
     end
     
